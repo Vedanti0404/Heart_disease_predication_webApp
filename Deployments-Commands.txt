@@ -1,21 +1,41 @@
-Create a Ubuntu Instance.
-EC2 (elastic compute) A virtual machine.
+STEP1: Create a Ubuntu Instance.
+EC2 (elastic compute)
 
-sudo apt-get update
+-------
+QUESTION: WHAT IS A VM? 
+A virtual machine (VM) is a software-based simulation of a physical computer. It allows you to run an operating system and applications just like on a real computer, but within a virtual environment on a physical machine. This enables multiple VMs to share the same hardware resources, making it easier to manage and use them efficiently.
+-------
 
-sudo apt install git
+STEP 2: sudo apt-get update
 
-git clone https://github.com/Vedanti0404/Diabetes_prediction_webApp.git
+STEP 3: sudo apt install git
 
-ls -> you will see the folder name
+-------
+`sudo` (short for "superuser do") is a command in Linux that allows a permitted user to execute a command with the privileges of another user, usually the superuser (root). This is often used to perform administrative tasks that require higher permissions.
+------
 
-cd folder name
+STEP 4: git clone https://github.com/Vedanti0404/Diabetes_prediction_webApp.git
+
+STEP 5: ls -> you will see the folder name
+
+STEP 6: cd folder name
 
 now inside that folder.
 
-sudo apt install python3-pip
+STEP 7: sudo apt install python3-pip
 
-pip install numpy pandas stremlit pickle (No need for sklearn and matplotlib as model is already trained.)
+STEP 8: pip install numpy pandas stremlit pickle (No need for sklearn and matplotlib as model is already trained.)
 
-streamlit run app.py
+STEP 9: streamlit run app.py
+
+------
+Ubuntu is a popular Linux distribution. It is a specific version of the Linux operating system, designed to be user-friendly and easy to use.
+
+Linux refers to the "underlying kernel" that forms the core of the operating system. It's the foundation that various distributions (like Ubuntu, Fedora, and Debian) are built upon.
+
+In essence:
+- Linux is the kernel.
+- Ubuntu is a complete operating system that includes the Linux kernel and additional software, making it a Linux distribution.
+
+-----
 
