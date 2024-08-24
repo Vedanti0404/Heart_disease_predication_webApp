@@ -1,1 +1,21 @@
+Create a Ubuntu Instance.
+EC2 (elastic compute) A virtual machine.
+
+sudo apt-get update
+
+sudo apt install git
+
+git clone https://github.com/Vedanti0404/Diabetes_prediction_webApp.git
+
+ls -> you will see the folder name
+
+cd folder name
+
+now inside that folder.
+
+sudo apt install python3-pip
+
+pip install numpy pandas stremlit pickle (No need for sklearn and matplotlib as model is already trained.)
+
+streamlit run app.py
 
